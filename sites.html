@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <meta charset="UTF-8">
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <title>Adarsh Kumar</title>
-  	<link rel="stylesheet" href="https://Assets.rockgamerak.repl.co/main.css">
-  	<link rel="icon" href="https://Assets.rockgamerak.repl.co/favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites | Adarsh Kumar</title>
+    <link rel="stylesheet" href="https://Assets.rockgamerak.repl.co/main.css">
+    <link rel="icon" href="https://Assets.rockgamerak.repl.co/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <script src="https://Assets.rockgamerak.repl.co/main.js" defer></script>
   </head>
   <body>
-   	<header id="header">
+    <header id="header">
       <a class="logo-link">
         <img width="80" src="https://Assets.rockgamerak.repl.co/logo.png">
       </a>
-		  <nav>
-  			<ul class="nav-links">
-				  <li class="navigation-button current-page"><a class="home-link">Home</a></li>
-				  <li class="navigation-button"><a href="about.html">About</a></li>
-				  <li class="navigation-button"><a href="projects.html">Projects</a></li>
-				  <li class="navigation-button"><a href="blog.html">Blog</a></li>
-				  <li class="navigation-button"><a href="sites.html">Sites</a></li>
-			  </ul>
-		  </nav>
-	  </header>
-  	<main id="content">
+      <nav>
+  	<ul class="nav-links">
+	  <li class="navigation-button">
+	    <a class="home-link">Home</a>
+	  </li>
+	  <li class="navigation-button">
+	    <a href="about.html">About</a>
+	  </li>
+	  <li class="navigation-button">
+	    <a href="projects.html">Projects</a>
+	  </li>
+	  <li class="navigation-button">
+	    <a href="blog.html">Blog</a>
+	  </li>
+	  <li class="navigation-button current-page">
+	    <a href="sites.html">Sites</a>
+	  </li>
+	</ul>
+      </nav>
+    </header>
+    <main id="content">
       <br>
       <center>
         <h1 id="page-title">Home</h1>
@@ -37,31 +47,15 @@
         <hr>
         <br>
       </div>
-		  <div id="main-content">
+      <div id="main-content">
         <center>
-         <script>
-            function about(){
-         			window.open('https://RockGamerAK.repl.co/About','About','width=1920,height=1080,directories=no,titlebar=no,toolbar=0,location=no,status=1,menubar=no,scrollbars=1');
-            }
-
-            function videos(){
-              window.open('https://adarsh-kumar.wixsite.com/Videos','Videos','width=1920,height=1080,directories=no,titlebar=no,toolbar=0,location=no,status=1,menubar=no,scrollbars=1');
-            }
-
-            function music(){
-  			    window.open('https://adarsh-kumar.wixsite.com/Music','Music','width=1920,height=1080,directories=no,titlebar=no,toolbar=0,location=no,status=1,menubar=no,scrollbars=1');
-		        }
-                
-		        function games(){
-			      window.open('https://adarsh-kumar.wixsite.com/Games','Games','width=1920,height=1080, directories=no,titlebar=no,toolbar=0,location=no,status=1,menubar=no,scrollbars=1');
-		        }
-	        </script>
-	        <button onclick="about()">About Me</button>
+	  <script src="sites.js">
+	  <button onclick="about()">About Me</button>
           <button onclick="videos()">Videos</button>
           <button onclick="music()">Music</button>
           <button onclick="games()">Games</button>
         </center>
-		  </div>
+      </div>
     </main>
   </body>
 </html>
