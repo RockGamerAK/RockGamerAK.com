@@ -1,10 +1,10 @@
 # Help - EasyMeet
 
 ### Login/Sign Up
-  - Enter your username and password, and click on **```Login```** or **```Sign Up```**.
+  - Enter your username and password, and click on [**```Login```**](https://easymeet.rockgamerak.repl.co/login) or [**```Sign Up```**](https://easymeet.rockgamerak.repl.co/signup).
 
 ### Logout
-  - Click on **```Logout```** at the top.
+  - Click on [**```Logout```**](https://easymeet.rockgamerak.repl.co/logout) at the top.
 
 ### Join Meet
   - At the top, click on [**```Join Meet```**](https://easymeet.rockgamerak.repl.co/join).
@@ -15,4 +15,4 @@ https://easymeet.rockgamerak.repl.co/join) page, you can also change the setting
 Even though your audio and video are off by default, you will need to give access to your video and microphone to join the meet. The chat box allows you to type out a message to everyone. You can also choose who you want to send your message to for a private message. To see someone's name, hover your cursor over their video.
 
 ### Inviting
-  - You can either invite someone at the **```Join Meet```** page, or when you're in a meet. Enter their username (and room if you're at the **```Join Meet```** page). If the person you invite is online, they'll see it and choose to join or not.
+  - You can either invite someone at the [**```Join Meet```**](https://easymeet.rockgamerak.repl.co/join) page, or when you're in a meet. Enter their username (and room if you're at the [**```Join Meet```**](https://easymeet.rockgamerak.repl.co/join) page). If the person you invite is online, they'll see it and choose to join or not.
