@@ -242,17 +242,17 @@ strong {
 # Help - EasyMeet
 
 ### Login/Sign Up
-  - Enter your username and password, and click on <code>Login</code> or <code>Sign Up</code>.
+  - Enter your username and password, and click on ```Login``` or ```Sign Up```.
 
 ### Logout
-  - Click on <code>Logout</code> at the top.
+  - Click on ```Logout``` at the top.
 
 ### Join Meet</h3>
-  - At the top, click on <code>Join Meet</code>.
-  - Enter the room name and click on <code>Enter room</code>, or click on <code>Join main room</code> if you are joining the main meet.
-In the <code>Join Meet</code> page, you can also change the settings for keeping your audio/video on/off.
+  - At the top, click on ```Join Meet```.
+  - Enter the room name and click on ```Enter Room```, or click on ```Join Main Room`` if you are joining the main meet.
+In the ```Join Meet``` page, you can also change the settings for keeping your audio/video on/off.
 
 Even though your audio and video are off by default, you will need to give access to your video and microphone to join the meet. The chat box allows you to type out a message to everyone. You can also choose who you want to send your message to for a private message. To see someone's name, hover your cursor over their video.
 
 ### Inviting
-  - You can either invite someone at the <code>Join Meet</code> page, or when you're in a meet. Enter their username (and room if you're at the <code>Join Meet</code> page). If the person you invite is online, they'll see it and choose to join or not.</li>
+  - You can either invite someone at the <code>Join Meet</code> page, or when you're in a meet. Enter their username (and room if you're at the <code>Join Meet</code> page). If the person you invite is online, they'll see it and choose to join or not.
