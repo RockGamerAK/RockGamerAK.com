@@ -7,7 +7,7 @@
   - Click on **```Logout```** at the top.
 
 ### Join Meet
-  - At the top, click on [**```Join Meet```**.](https://easymeet.rockgamerak.repl.co/join)
+  - At the top, click on [**```Join Meet```**](https://easymeet.rockgamerak.repl.co/join).
   - Enter the room name and click on **```Enter Room```**, or click on **```Join Main Room```** if you are joining the main meet.
 In the **```Join Meet```** page, you can also change the settings for keeping your audio/video on/off.
 
