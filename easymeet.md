@@ -9,7 +9,8 @@
 ### Join Meet
   - At the top, click on [**```Join Meet```**](https://easymeet.rockgamerak.repl.co/join).
   - Enter the room name and click on **```Enter Room```**, or click on **```Join Main Room```** if you are joining the main meet.
-In the **```Join Meet```** page, you can also change the settings for keeping your audio/video on/off.
+In the [**```Join Meet```**](
+https://easymeet.rockgamerak.repl.co/join) page, you can also change the settings for keeping your audio/video on/off.
 
 Even though your audio and video are off by default, you will need to give access to your video and microphone to join the meet. The chat box allows you to type out a message to everyone. You can also choose who you want to send your message to for a private message. To see someone's name, hover your cursor over their video.
 
