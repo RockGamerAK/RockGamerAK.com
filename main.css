@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+:root {
+  --header-color: hsl(202, 50%, 17%);
+  --navigation-link: white;
+  --navigation-link-hover: hsl(209, 56%, 53%);
+  --logo-a-color: hsl(195, 12%, 94%);
+  --active-link: hsl(352, 68%, 77%);
+  --navigation-button: hsl(209, 56%, 53%);
+  --navigaton-button-hover: hsl(209, 90%, 70%);
+  --current-page: hsl(200, 90%, 50%);
+}
+
+html,body,iframe {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin: 8;
+  width: 100%;
+  height: 83.8%;
+}
+
+#main-content {
+  width: 100%;
+  height: 90%;
+}
+
+.about-block {
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 7500;
+  text-decoration: none
+}
+
+h1,heading-link {
+  font-size: 30px;
+  font-weight: 7500;
+  text-decoration: none
+}
+
+/* Styles for the Navigation Bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: var(--header-color);
+}
+
+.logo a {
+  color: var(--logo-a-color);
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul a li {
+  padding: 0px 20px;
+  color: var(--navigation-link);
+}
+
+header nav ul a {
+  font-weight: 500;
+  color: var(--navigation-link);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header nav ul a:hover {
+  color: var(--navigation-link-hover);
+}
+
+#active-link {
+  color:var(--active-link);
+}
+
+.seperator {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* Styles for below the nav bar */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-left: 8;
+  margin-right: 8;
+}
+
+.navigation-button {
+  background-color: var(--navigation-button);
+  width: 75px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: hsl(34, 78%, 91%);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navigation-button:hover {
+  background-color: var(--navigaton-button-hover);
+}
+
+.current-page {
+  background-color: var(--current-page);
+}
+
+.nav-link {
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
