@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
-  font-family: 'Raleway', sans-serif;
-  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -16,7 +15,7 @@
   --current-page: hsl(200, 90%, 50%);
 }
 
-html,body,iframe {
+html, body, iframe {
   margin: 0;
   padding: 0;
   width: 100%;
