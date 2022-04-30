@@ -68,13 +68,22 @@ header nav ul {
 header nav ul a li {
   padding: 0px 20px;
   color: var(--navigation-link);
+  background-color: var(--navigation-button);
+  width: 75px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 25px;
 }
 
 header nav ul a {
   font-weight: 500;
   color: var(--navigation-link);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease;  
 }
 
 header nav ul a:hover {
@@ -102,17 +111,6 @@ header nav ul a:hover {
 }
 
 .navigation-button {
-  background-color: var(--navigation-button);
-  width: 75px;
-  height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: hsl(34, 78%, 91%);
-  text-decoration: none;
-  font-size: 1.5rem;
 }
 
 .navigation-button:hover {
