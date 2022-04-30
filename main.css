@@ -111,6 +111,15 @@ header nav ul a:hover {
 }
 
 .navigation-button {
+  background-color: var(--navigation-button);
+  width: 75px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 25px;
 }
 
 .navigation-button:hover {
