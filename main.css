@@ -48,8 +48,8 @@ table tr .seperator {
   flex: 1;
 }
 
-table tr th:not(.seperator) {
-  flex: 2;
+table tr .item {
+  flex: 4;
   display: flex;
   flex-direction: column;
   padding: 20px;
