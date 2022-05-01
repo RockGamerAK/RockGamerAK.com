@@ -65,6 +65,10 @@ header nav ul {
   display: flex;
 }
 
+.nav-divider {
+  flex: 1;
+}
+
 header nav ul a li {
   padding: 0px 20px;
   color: var(--navigation-link);
