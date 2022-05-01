@@ -44,8 +44,12 @@ table tr {
   flex: row;
 }
 
-table tr th {
+table tr .seperator {
   flex: 1;
+}
+
+table tr th {
+  flex: 2;
   display: flex;
   flex-direction: column;
   padding: 20px;
