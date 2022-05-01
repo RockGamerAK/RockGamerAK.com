@@ -64,6 +64,7 @@ table tr th img {
 
 table tr th hi {
   flex: 1;
+  margin-block-end: 0;
 }
 
 .about-block {
