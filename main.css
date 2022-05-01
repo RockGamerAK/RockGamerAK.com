@@ -67,6 +67,7 @@ header nav ul {
 
 .nav-divider {
   flex: 1;
+  width: 15px;
 }
 
 header nav ul a li {
