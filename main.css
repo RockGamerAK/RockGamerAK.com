@@ -45,7 +45,7 @@ table tr {
 }
 
 table tr .seperator {
-  flex: 2;
+  flex: 0.5;
 }
 
 table tr .item {
