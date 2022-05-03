@@ -41,11 +41,12 @@ table {
 table tr {
   flex: 1;
   display: flex;
-  flex: row;
+  flex-direction: row;
+  gap: 0.5%;
 }
 
 table tr .seperator {
-  flex: 0.5;
+  flex: 0.25;
 }
 
 table tr .item {
