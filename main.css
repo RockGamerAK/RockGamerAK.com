@@ -95,6 +95,7 @@ header {
 }
 
 header nav {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +109,7 @@ header nav ul {
   flex-direction: row;
   gap: 15px;
   padding: 0;
-  width: 50rem;
+  width: 100%;
 }
 
 header nav ul a {
