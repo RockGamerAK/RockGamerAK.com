@@ -114,6 +114,8 @@ header nav ul a:focus {
   border-radius: 100px;
   border: solid 1px gray;
   outline: none;
+  width: 71px;
+  height: 46px;
 }
 
 header nav ul a li {
