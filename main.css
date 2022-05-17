@@ -33,6 +33,10 @@ main {
   height: 90%;
 }
 
+[border-top] {
+  border-top: solid 1px black;
+}
+
 table {
   display: flex;
   flex-direction: column;
