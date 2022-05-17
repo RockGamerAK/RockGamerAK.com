@@ -107,6 +107,13 @@ header nav ul a {
   transition: color 0.3s ease;  
   border-radius: 25px;
   border: none;
+  outline: none;
+}
+
+header nav ul a:focus {
+  border-radius: 25px;
+  border: solid 2px gray;
+  outline: none;
 }
 
 header nav ul a li {
