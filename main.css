@@ -128,10 +128,20 @@ header nav ul a li {
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 25px;
+  transition: width 2s;
+  transition: height 2s;
+  transition-timing-function: ease-in-out;
 }
 
-header nav ul a:hover {
+header nav ul a li:hover {
+  width: 75px;
+  height: 50px;
+  font-size: 1.5rem;
   color: var(--navigation-link-hover);
+  transition: width 2s;
+  transition: height 2s;
+  transition: font-size 2s;
+  transition-timing-function: ease-in-out;
 }
 
 #active-link {
