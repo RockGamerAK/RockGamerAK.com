@@ -101,6 +101,7 @@ header nav ul {
 }
 
 header nav ul a {
+  margin: 2.5px 0 2.5px 0;
   font-weight: 500;
   color: var(--navigation-link);
   text-decoration: none;
@@ -111,6 +112,7 @@ header nav ul a {
 }
 
 header nav ul a:focus {
+  margin: 0;
   border-radius: 100px;
   border: solid 2px gray;
   outline: none;
