@@ -107,6 +107,7 @@ header nav ul {
   justify-content: center;
   flex-direction: row;
   gap: 15px;
+  padding: 0;
 }
 
 header nav ul a {
