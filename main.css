@@ -93,6 +93,12 @@ header {
   text-decoration: none;
 }
 
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header nav ul {
   list-style: none;
   display: flex;
