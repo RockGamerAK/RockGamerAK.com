@@ -132,6 +132,11 @@ header nav ul a li {
   border-radius: 25px;
 }
 
+header nav ul a:focus li {
+  width: 71px;
+  height: 46px;
+}
+
 header nav ul a:hover {
   color: var(--navigation-link-hover);
 }
