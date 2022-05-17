@@ -134,13 +134,16 @@ header nav ul a li {
 }
 
 header nav ul a li:hover {
+  background-color: var(--navigaton-button-hover);
   width: 75px;
   height: 50px;
   font-size: 1.5rem;
   color: var(--navigation-link-hover);
+  transition: background-color 2s;
   transition: width 2s;
   transition: height 2s;
   transition: font-size 2s;
+  transition: color 2s;
   transition-timing-function: ease-in-out;
 }
 
