@@ -105,11 +105,10 @@ header nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   flex-direction: row;
   gap: 15px;
   padding: 0;
-  width: 100%;
 }
 
 header nav ul a {
