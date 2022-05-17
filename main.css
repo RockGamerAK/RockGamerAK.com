@@ -82,7 +82,7 @@ h1,heading-link {
 /* Styles for the Navigation Bar */
 header {
   display: flex;
-  justify-content: space-between;
+/*  justify-content: center;*/
   align-items: center;
   padding: 30px 10%;
   height: 100px;
@@ -108,6 +108,7 @@ header nav ul {
   flex-direction: row;
   gap: 15px;
   padding: 0;
+  width: 50rem;
 }
 
 header nav ul a {
@@ -119,8 +120,8 @@ header nav ul a {
   border-radius: 25px;
   border: none;
   outline: none;
-  width: 80px;
-  height: 55px;
+  width: 115px;
+  height: 50px;
 }
 
 header nav ul a:focus {
