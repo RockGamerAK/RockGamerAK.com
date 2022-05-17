@@ -138,8 +138,8 @@ header nav ul a li {
 
 header nav ul a li:hover {
   background-color: var(--navigaton-button-hover);
-  width: 100px;
-  height: 75px;
+  width: 80px;
+  height: 55px;
   font-size: 1.6rem;
   color: var(--navigation-link-hover);
   transition: background-color 1s;
