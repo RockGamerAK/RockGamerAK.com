@@ -100,6 +100,15 @@ header nav ul {
   gap: 15px;
 }
 
+header nav ul a {
+  font-weight: 500;
+  color: var(--navigation-link);
+  text-decoration: none;
+  transition: color 0.3s ease;  
+  border-radius: 25px;
+  border: none;
+}
+
 header nav ul a li {
   padding: 0px 20px;
   color: var(--navigation-link);
@@ -112,13 +121,6 @@ header nav ul a li {
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 25px;
-}
-
-header nav ul a {
-  font-weight: 500;
-  color: var(--navigation-link);
-  text-decoration: none;
-  transition: color 0.3s ease;  
 }
 
 header nav ul a:hover {
