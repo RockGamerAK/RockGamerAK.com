@@ -33,7 +33,7 @@ main {
   height: 90%;
 }
 
-[border-top] {
+[home] #main-content {
   border-top: solid 1px black;
 }
 
