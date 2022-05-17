@@ -112,7 +112,7 @@ header nav ul a {
 
 header nav ul a:focus {
   border-radius: 25px;
-  border: solid 2px gray;
+  border: solid 1px gray;
   outline: none;
 }
 
