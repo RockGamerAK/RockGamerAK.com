@@ -82,7 +82,7 @@ h1,heading-link {
 /* Styles for the Navigation Bar */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px 10%;
   height: 100px;
@@ -103,6 +103,8 @@ header nav {
 header nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 15px;
 }
