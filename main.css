@@ -112,10 +112,8 @@ header nav ul a {
 
 header nav ul a:focus {
   border-radius: 100px;
-  border: solid 1px gray;
+/*  border: solid 1px gray;*/
   outline: none;
-  width: 71px;
-  height: 46px;
 }
 
 header nav ul a li {
@@ -130,11 +128,6 @@ header nav ul a li {
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 25px;
-}
-
-header nav ul a:focus li {
-  width: 71px;
-  height: 46px;
 }
 
 header nav ul a:hover {
