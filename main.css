@@ -128,11 +128,7 @@ header nav ul a li {
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 25px;
-  transition: background-color 1s;
-  transition: width 1s;
-  transition: height 1s;
-  transition: font-size 1s;
-  transition: color 1s;
+  transition: all 1s;
   transition-timing-function: ease-in-out;
 }
 
@@ -142,11 +138,7 @@ header nav ul a li:hover {
   height: 55px;
   font-size: 1.6rem;
   color: var(--navigation-link-hover);
-  transition: background-color 1s;
-  transition: width 1s;
-  transition: height 1s;
-  transition: font-size 1s;
-  transition: color 1s;
+  transition: all 1s;
   transition-timing-function: ease-in-out;
 }
 
