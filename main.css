@@ -141,7 +141,7 @@ header nav ul a li {
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 25px;
-  transition: all 500ms;
+  transition: all 250ms;
   transition-timing-function: ease-in-out;
 }
 
@@ -151,7 +151,7 @@ header nav ul a li:hover {
   height: 55px;
   font-size: 1.6rem;
   color: var(--navigation-link-hover);
-  transition: all 500ms;
+  transition: all 250ms;
   transition-timing-function: ease-in-out;
 }
 
