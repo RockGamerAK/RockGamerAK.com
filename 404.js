@@ -2,10 +2,10 @@ var currentUrl = location.href;
 let pageTitle = document.querySelector('.current-URL-not-found')
 pageTitle.innerHTML = '<a href="' + currentUrl + '">' + currentUrl + '</a> Was Not Found'
 
-var splitUrl = currentUrl.split('rockgamerak.com/')[1]
+var splitUrl = currentUrl.split('://rockgamerak.com/')[1]
 
-if (splitUrl == '404') {
-  
+if (splitUrl == '404/') {
+    location.href = '/404'  
 }
 else if (splitUrl == 'about/') {
   location.href = '/about'
