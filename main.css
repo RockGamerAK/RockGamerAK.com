@@ -122,6 +122,8 @@ header nav ul a {
   outline: none;
   width: 115px;
   height: 50px;
+  transition: all 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 header nav ul a:focus {
@@ -129,6 +131,11 @@ header nav ul a:focus {
   border-radius: 100px;
   border: solid 2px gray;
   outline: none;
+}
+
+header nav ul a:hover {
+  width: 80px;
+  height: 55px;
 }
 
 header nav ul a li {
