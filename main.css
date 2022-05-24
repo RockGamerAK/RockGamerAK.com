@@ -74,6 +74,7 @@ table tr th h1 {
 }
 
 .project-description {
+  padding: 5px;
   border: solid 1px gray;
 }
 
