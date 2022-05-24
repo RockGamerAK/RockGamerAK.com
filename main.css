@@ -73,6 +73,10 @@ table tr th h1 {
   text-decoration: none
 }
 
+.project-description {
+  border: solid 1px gray;
+}
+
 h1,heading-link {
   font-size: 30px;
   font-weight: 7500;
