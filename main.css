@@ -79,7 +79,7 @@ table tr th h1 {
 }
 
 li .project-description {
-  margin: 5px 0 5px 0;
+  margin-left: 5px;
   padding: 5px;
   border: solid 1px gray;
 }
