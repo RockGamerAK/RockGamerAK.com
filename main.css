@@ -73,6 +73,16 @@ table tr th h1 {
   text-decoration: none
 }
 
+[noPadding] {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+[noPadding] li {
+  padding: 5px 0 5px 0;
+}
+
 .project-description {
   padding: 5px;
   border: solid 1px gray;
