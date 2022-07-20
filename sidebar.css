@@ -5,8 +5,9 @@
 }
 
 :root {
-  --nav-color: hsl(202, 50%, 17%);
+  --nav-background: hsl(202, 50%, 17%);
   --navigation-link: white;
+  --nav-color: #0078d7;
   --navigation-link-hover: hsl(209, 56%, 53%);
   --logo-a-color: hsl(195, 12%, 94%);
   --active-link: hsl(352, 68%, 77%);
@@ -27,8 +28,8 @@ nav {
   height: 100%;
 /*  display: flex;  */
   align-items: center;
-  background-color: var(--nav-color);
-  color: var(--navigation-link)
+  background-color: var(--nav-background);
+  color: var(--navigation-color)
 }
 
 nav ul {
