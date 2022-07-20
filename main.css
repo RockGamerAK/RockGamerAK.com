@@ -37,7 +37,7 @@ header .logo-link {
   text-decoration: none;
 }
 
-.logo {
+header .logo {
   width: 80px;
   height: auto;
 }
