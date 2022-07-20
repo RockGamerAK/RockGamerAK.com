@@ -26,7 +26,6 @@ html, body, iframe {
 nav {
   flex: 1;
   display: flex;
-  justify-content: right;
   align-items: center;
   background-color: var(--nav-color);
 }
