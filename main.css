@@ -136,8 +136,9 @@ main {
 }
 
 main #page-title {
-  margin-top: calc(0.67em + 19px);
-  margin-bottom: calc(0.67em + 19px);
+  margin: 0;
+  padding-top: calc(0.67em + 19px);
+  padding-bottom: calc(0.67em + 19px);
   border-bottom: solid 2px gray;
 }
 
