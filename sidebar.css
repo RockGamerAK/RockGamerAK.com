@@ -124,24 +124,24 @@ header {
   text-decoration: none;
 }
 
-header nav {
+nav {
   flex: 1;
   display: flex;
   justify-content: right;
   align-items: center;
 }
 
-header nav ul {
+nav ul {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   gap: 15px;
   padding: 0;
 }
 
-header nav ul a {
+nav ul a {
   margin: 2.5px 0 2.5px 0;
   font-weight: 500;
   color: var(--navigation-link);
@@ -156,19 +156,19 @@ header nav ul a {
   transition-timing-function: ease-in-out;
 }
 
-header nav ul a:focus {
+nav ul a:focus {
   margin: 0;
   border-radius: 100px;
   border: solid 2px gray;
   outline: none;
 }
 
-header nav ul a:hover {
+nav ul a:hover {
   width: 120px;
   height: 55px;
 }
 
-header nav ul a li {
+nav ul a li {
   color: var(--navigation-link);
   background-color: var(--navigation-button);
   width: 75px;
@@ -184,7 +184,7 @@ header nav ul a li {
   transition-timing-function: ease-in-out;
 }
 
-header nav ul a li:hover {
+nav ul a li:hover {
   background-color: var(--navigaton-button-hover);
   width: 80px;
   height: 55px;
