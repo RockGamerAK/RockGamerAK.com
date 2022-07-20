@@ -29,7 +29,7 @@ nav {
 /*  display: flex;  */
   align-items: center;
   background-color: var(--nav-background);
-  color: var(--navigation-color)
+  color: var(--nav-color)
 }
 
 nav ul {
