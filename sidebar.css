@@ -5,7 +5,7 @@
 }
 
 :root {
-  --header-color: hsl(202, 50%, 17%);
+  --nav-color: hsl(202, 50%, 17%);
   --navigation-link: white;
   --navigation-link-hover: hsl(209, 56%, 53%);
   --logo-a-color: hsl(195, 12%, 94%);
@@ -22,113 +22,13 @@ html, body, iframe {
   height: 100%;
 }
 
-main {
-  display: flex;
-  width: 100%;
-  height: calc(100% - 220px);
-}
-
-#main-content {
-  border-left: solid 1px black;
-  border-right: solid 1px black;
-  flex: 1;
-  margin: 8px;
-  width: 100%;
-  height: 100%;
-}
-
-sidebar {
-  width: 300px;
-  height: 100%;
-}
-
-table {
-  display: flex;
-  flex-direction: column;
-}
-
-table tr {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  gap: 0.5%;
-}
-
-table tr .seperator {
-  flex: 0.25;
-}
-
-table tr .item {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  background-color: #0078D7;
-  border-radius: 25px;
-}
-
-table tr th img {
-  flex: 5;
-}
-
-table tr th h1 {
-  flex: 1;
-  margin-block-end: 0;
-}
-
-.about-block {
-  padding: 1rem;
-  font-size: 20px;
-  font-weight: 7500;
-  text-decoration: none
-}
-
-[noPadding] {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-[noPadding] li {
-  padding: 10px 0 10px 0;
-}
-
-.project-description {
-  padding: 5px;
-  border: solid 1px gray;
-}
-
-li .project-description {
-  padding: 5px;
-  border: solid 1px gray;
-}
-
-h1,heading-link {
-  font-size: 30px;
-  font-weight: 7500;
-  text-decoration: none
-}
-
 /* Styles for the Navigation Bar */
-header {
-  display: flex;
-/*  justify-content: center;*/
-  align-items: center;
-  padding: 30px 10%;
-  height: 100px;
-  background-color: var(--header-color);
-}
-
-.logo a {
-  color: var(--logo-a-color);
-  text-decoration: none;
-}
-
 nav {
   flex: 1;
   display: flex;
   justify-content: right;
   align-items: center;
+  background-color: var(--nav-color);
 }
 
 nav ul {
@@ -136,7 +36,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px;
   padding: 0;
 }
@@ -194,8 +94,12 @@ nav ul a li:hover {
   transition-timing-function: ease-in-out;
 }
 
-#active-link {
+nav ul #active-link {
   color:var(--active-link);
+}
+
+nav ul .current-page {
+  background-color: var(--current-page);
 }
 
 .seperator {
@@ -204,25 +108,52 @@ nav ul a li:hover {
 }
 
 /* Styles for below the nav bar */
-.main-content {
+table {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  margin-left: 8;
-  margin-right: 8;
 }
 
-.current-page {
-  background-color: var(--current-page);
+table tr {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5%;
 }
 
-.nav-link {
+table tr .seperator {
+  flex: 0.25;
+}
+
+table tr .item {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
+  background-color: #0078D7;
+  border-radius: 25px;
 }
 
-.logo {
-  width: 80px;
-  height: auto;
+table tr th img {
+  flex: 5;
+}
+
+table tr th h1 {
+  flex: 1;
+  margin-block-end: 0;
+}
+
+[noPadding] {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+[noPadding] li {
+  padding: 10px 0 10px 0;
+}
+
+h1, .heading-link {
+  font-size: 30px;
+  font-weight: 7500;
+  text-decoration: none
 }
