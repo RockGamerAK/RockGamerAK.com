@@ -45,7 +45,7 @@ sidebar {
 content {
   border-left: solid 1px black;
   border-right: solid 1px black;
-  margin: 8px;
+  padding: 8px;
   width: 100%;
   height: 100%;
   flex: 1;
