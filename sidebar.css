@@ -37,7 +37,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   gap: 15px;
   padding: 0;
 }
