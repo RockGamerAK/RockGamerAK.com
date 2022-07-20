@@ -28,6 +28,7 @@ nav {
 /*  display: flex;  */
   align-items: center;
   background-color: var(--nav-color);
+  color: var(--navigation-link)
 }
 
 nav ul {
