@@ -24,13 +24,14 @@ html, body, iframe {
 
 /* Styles for the Navigation Bar */
 nav {
-  flex: 1;
+  height: 100%;
   display: flex;
   align-items: center;
   background-color: var(--nav-color);
 }
 
 nav ul {
+  margin: 0;
   list-style: none;
   display: flex;
   align-items: center;
